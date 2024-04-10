@@ -75,7 +75,6 @@ Automatically act on your data and communicate using third-party services like T
 
 # PROGRAM:
 ```
-
 #include <WiFi.h>
 #include <WiFiClient.h>;
 #include <ThingSpeak.h>;
@@ -94,7 +93,8 @@ float h,tc ;
 WiFiClient client;
 unsigned long myChannelNumber = 2502691; //Your Channel Number (Without Brackets)
 const char * myWriteAPIKey = "BQVOVLO6UG3J5KNM"; // Your write API Key
-
+```
+```
 void setup()
 {
 Serial.begin(115200);
@@ -108,6 +108,8 @@ dht.begin();
   Serial.println("DHT11 Temperature and Humidity ");
 
 }
+```
+```
 void loop()
 {
 
@@ -134,8 +136,10 @@ delay(100);
 <img src="https://github.com/SowmyaVisvanathan/Uploading-sensor-data-in-Thing-Speak-cloud/assets/119475775/fee0d770-8754-47ae-92a8-15704f88b72b" alt="description" style="width: 50%; height: auto;">
 
 # OUTPUT:
+## Serial Monitor
 <img src="https://github.com/SowmyaVisvanathan/Uploading-sensor-data-in-Thing-Speak-cloud/assets/119475775/e4aeff39-cbc2-4def-b5eb-eb03c6a6ebef" alt="description" style="width: 50%; height: auto;">
 
+## Thing Speak
 <img src="https://github.com/SowmyaVisvanathan/Uploading-sensor-data-in-Thing-Speak-cloud/assets/119475775/2bb03958-5374-4b41-9194-b0fb48d62140" alt="description" style="width: 50%; height: auto;">
 
 # RESULT:
