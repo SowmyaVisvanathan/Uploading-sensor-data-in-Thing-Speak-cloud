@@ -93,8 +93,7 @@ float h,tc ;
 WiFiClient client;
 unsigned long myChannelNumber = 2502691; //Your Channel Number (Without Brackets)
 const char * myWriteAPIKey = "BQVOVLO6UG3J5KNM"; // Your write API Key
-```
-```
+
 void setup()
 {
 Serial.begin(115200);
