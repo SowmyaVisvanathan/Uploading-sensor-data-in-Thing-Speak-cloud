@@ -1,7 +1,7 @@
 #### Name : Sowmya V
 #### Reg no : 212222110045
 
-# Exp 1 - Uploading temperature sensor data in Thing Speak cloud
+# Exp 3 - Uploading temperature sensor data in Thing Speak cloud
 
 # AIM:
 To monitor the temperature sensor data in the Thing speak using an ESP32 controller.
